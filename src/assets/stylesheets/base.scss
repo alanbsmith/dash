@@ -1,0 +1,57 @@
+
+body {
+  background-color: #F3F3F3;
+}
+
+.jumbotron {
+  background-color: #020733;
+  color: #ffffff;
+  h1 {
+    font-weight: 100;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 200;
+    color: #9B9B9B;
+  }
+  #open-modal {
+    font-size: 18px;
+    color: #9B9B9B;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    float: right;
+    border: solid 1px #9B9B9B;
+    &:hover {
+      color: #FFFFFF;
+      border-color: #FFFFFF;
+    }
+  }
+}
+
+.panel {
+  border-radius: 0px;
+  border: solid 1px #FFFFFF;
+  p {
+    color: #989898;
+  }
+}
+
+.modal-content {
+  border-radius: 0px;
+  .modal-header {
+    border: none;
+  }
+  .modal-footer {
+    border: none;
+  }
+  .form-control {
+    margin: 10px 0px 10px 0px;
+    border-radius: 0px;
+  }
+  .btn {
+    border-radius: 0px;
+    color: #FFFFFF;
+    background-color: #020733;
+  }
+}
